@@ -33,6 +33,7 @@ DEBUG = True
 ALLOWED_HOSTS = [gethostname(), 
 
     os.environ.get('OPENSHIFT_APP_DNS'),
+                'testprojectdjango-rest-api-poc.apps.ssa-prod.20r1.p1.openshiftapps.com',
                 ]
 
 
